@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <main class="container">
+        <h1 class="title">TODO LIST</h1>
+        <hr class="divider">
+        <input class="input-task-text" type="text" placeholder="add item..." name="task-text" id="task-text">
+
+        <div class="add-btn-container">
+            <button class="simple-btn" type="button" id="add-task-btn">ADD</button>
+        </div>
+
+        <ul id="task-list">
+            <!-- <li class="task-item">
+                <span class="task-text">lorem100</span>
+                <div class="delete-edit-btn-container">
+                    <button type="button" class="simple-btn">DELETE</button>
+                    <button type="button" class="simple-btn">EDIT</button>
+                </div>
+            </li> -->
+            <!-- Tasks will be added here -->
+        </ul>
+    </main>
+
+    <script src="app.js"></script>
 </body>
 </html>
